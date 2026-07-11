@@ -9,7 +9,7 @@ on:
 jobs:
   publish:
     permissions:
-      contents: write
+      contents: read
 
     name: publish to registry
     runs-on: ubuntu-latest
